@@ -1,0 +1,20 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.money-display {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.coin-image {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}

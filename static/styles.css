@@ -7,9 +7,10 @@ body {
   margin: 0;
   background: transparent; /* Removendo fundo */
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   height: 100vh;
+  padding-left: 20px; /* Adicionando espaço à esquerda */
   flex-direction: column;
 }
 
@@ -34,9 +35,9 @@ body {
 
 /* Estilo para o nome da categoria */
 .money-display .category {
-  font-size: 18px;
-  font-weight: normal;
-  color: #a38b6d; /* Cor mais discreta */
+  font-size: 19px; /* Levemente maior */
+  font-weight: bold; /* Negrito */
+  color: #6e5c3a; /* Cor mais escura e discreta */
   margin-right: 10px;
 }
 
@@ -44,10 +45,11 @@ body {
 @media (max-width: 600px) {
   .money-display {
     flex-direction: column;
+    align-items: flex-start;
   }
 
   .coin-image {
     margin-right: 0;
     margin-bottom: 5px;
   }
-}
+} /* Importando a fonte medieval 'Cinzel' do Google Fonts */

@@ -1,15 +1,25 @@
+/* Importando a fonte medieval 'Cinzel' do Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap");
+
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  font-family: "Cinzel", serif;
+  background-color: #d3c6aa; /* Cor de pergaminho */
+  background-image: url("https://www.transparenttextures.com/patterns/paper.png"); /* Textura de pergaminho */
+  color: #2b190d;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  margin: 0;
 }
 
 .money-display {
   display: flex;
   align-items: center;
+  background-color: rgba(255, 255, 255, 0.85); /* Fundo translúcido */
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   margin: 10px 0;
 }
 
@@ -17,4 +27,34 @@ body {
   width: 30px;
   height: 30px;
   margin-right: 10px;
+}
+
+/* Estilo para o valor do dinheiro */
+.money-display span {
+  font-size: 20px;
+  color: #c59d44; /* Dourado */
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #3d2f14; /* Sombra para destacar o texto */
+}
+
+/* Efeito de hover na moeda e no texto */
+.money-display:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Ajustando o alinhamento em telas menores */
+@media (max-width: 600px) {
+  body {
+    flex-direction: column;
+  }
+
+  .money-display {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .coin-image {
+    margin-bottom: 5px;
+  }
 }

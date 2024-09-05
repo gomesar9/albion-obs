@@ -4,7 +4,15 @@ Fazer uns overlay legalzin pro [Felipera](https://www.twitch.tv/feliperas) ficar
 
 # Uso
 
-Ainda vou colocar aqui, mas vai ser um docker pra ficar safe.
+No linux:
+
+```
+./run.sh
+```
+
+feito.
+
+Agora no Ruindows que vc usa eu não seu meu amigo, mas o dockerfile ta aí, qualquer coisa mande um salve
 
 # Ibagens
 

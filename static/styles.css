@@ -28,17 +28,45 @@ body {
 
 /* Estilo para o valor do dinheiro */
 .money-display span {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
   text-shadow: 1px 1px 2px #3d2f14; /* Sombra para destacar o texto */
 }
 
 /* Estilo para o nome da categoria */
 .money-display .category {
-  font-size: 19px; /* Levemente maior */
+  font-size: 30px; /* Levemente maior */
   font-weight: bold; /* Negrito */
   color: #6e5c3a; /* Cor mais escura e discreta */
   margin-right: 10px;
+}
+
+/* Estilo para o nome da categoria */
+.rat-display .category {
+  font-size: 30px; /* Levemente maior */
+  font-weight: bold; /* Negrito */
+  color: #2c2c2c; /* Cor preta, remetendo a ratos */
+  margin-right: 10px;
+}
+
+.rat-display {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.rat-image {
+  width: 30px; /* Tamanho menor para a imagem de rato */
+  height: 30px;
+  margin: 0 10px;
+}
+
+/* Estilo para o valor do número de ratos */
+.rat-display span {
+  font-size: 25px; /* Menor que o valor de dinheiro */
+  color: #2c2c2c; /* Cor preta, remetendo a ratos */
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #3d2f14; /* Sombra para destacar o texto */
 }
 
 /* Ajustando o alinhamento em telas menores */
